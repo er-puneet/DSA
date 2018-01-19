@@ -2,14 +2,15 @@
 
 void insertionSort(int *Arr, int size)
 {
-	
+	//Print Array to be sorted
 	printf("Sorting array\n");
 	for (int i=0; i<size; i++)
 		printf("%d ", Arr[i]);
 	printf("\n");
 	
+	//sort Array
 	int key, j;
-	int count = 0;
+	int count = 0;		//Variable to count number of swap operation performed. 
 	for (int i=1; i<size; i++)
 	{
 		key = Arr[i];
@@ -24,7 +25,7 @@ void insertionSort(int *Arr, int size)
 		
 		Arr[j+1] = key;
 		
-		printf("Sorted array pass %d\n", i);
+		printf("Sorted array pass %d\n", i);		//Print Array after one sort pass completed
 		for (int i=0; i<size; i++)
 			printf("%d ", Arr[i]);
 		printf("\n");
@@ -44,6 +45,7 @@ int main()
 	int Arr[] = {13, 12, 11, 6, 5, 1};
 	int size = sizeof(Arr)/sizeof(Arr[0]);
 	
+	//Function for insertion sorting
 	insertionSort(Arr, size);
 	
 	return 0;

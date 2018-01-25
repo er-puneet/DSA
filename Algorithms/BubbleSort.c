@@ -60,6 +60,8 @@ int main()
 
 
 /*
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+
 Worst and Average Case Time Complexity: O(n*n). Worst case occurs when array is reverse sorted.
 Best Case Time Complexity: O(n). Best case occurs when array is already sorted.
 Auxiliary Space: O(1)

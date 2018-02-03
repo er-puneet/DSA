@@ -8,7 +8,7 @@ void selectionSort(int *Arr, int size)
 		printf("%d ", Arr[i]);
 	printf("\n");
 	
-	int key, smallest;
+	int key, smallest, count = 0;
 	
 	for (int i=0; i<size-1; i++)
 	{

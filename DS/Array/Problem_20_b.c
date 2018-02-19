@@ -19,7 +19,7 @@ void printArray(int arr[], int size)
 
 
 
-/*Method to find first occurance of element in arr[]*/
+/*Method to find min amd max elements in arr[]*/
 struct pair getMinMax(int arr[], int low, int high)
 {
 	

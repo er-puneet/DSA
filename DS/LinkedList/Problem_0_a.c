@@ -16,7 +16,7 @@ void printLinkedList(struct node *head)
 		return;
 	}
 	
-	printf("Linked List : ");
+	printf("Linked List: ");
 	
 	while(head != NULL)
 	{
